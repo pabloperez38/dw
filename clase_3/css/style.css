@@ -1,0 +1,32 @@
+h1{
+    font-size: 50px;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 10px;
+    /*text-decoration: underline;
+    padding: 25px;
+    margin: 100px;
+    border: 20px solid #000000;*/
+}
+.azul{ 
+    color: blue;
+}
+.verde{
+    color:green
+}
+#fuente30{
+    font-size: 20px;
+}
+.link{
+    text-decoration: none;
+}
+.cuadrado{
+   border-radius: 74px 34px 83px 140px;
+-webkit-border-radius: 74px 34px 83px 140px;
+-moz-border-radius: 74px 34px 83px 140px;
+border: 23px double #ff6550;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 2</title>
+  </head>
+  <body>
+    <h1>Clase 2</h1>
+    <hr />
+    <a href="pagina.html">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores</p>
+    </a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores</p>
+    <hr />
+    <a target="_blank" title="Contacto" href="contacto.html">Contacto</a>
+    <hr />
+    <a target="_blank" href="https://google.com"> ir a google</a>
+    <hr />
+    <a href="tel:+911818181">8484848</a>
+    <hr />
+    <a href="perro.html">
+      <img width="500" src="images/perro.jpg" alt="Perro" />
+    </a>
+    <hr />
+    <ul>
+      <li>texto</li>
+      <li>texto</li>
+      <li>texto</li>
+      <li>texto</li>
+      <li>texto</li>
+    </ul>
+
+    <hr />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti illo
+      voluptatibus, ea odio reprehenderit <span>impedit</span> necessitatibus
+      commodi, obcaecati earum dignissimos sit possimus incidunt nobis voluptas.
+      Cumque autem magnam aliquam est.
+    </p>
+    <hr />
+
+    <table border="1px solid #000">
+      <thead>
+        <tr>
+          <th>nombre</th>
+          <th>apellido</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>pablo</td>
+          <td>perez</td>
+          <td>pablo@pablo.com</td>
+        </tr>
+        <tr>
+          <td>pablo</td>
+          <td>perez</td>
+          <td>pablo@pablo.com</td>
+        </tr>
+        <tr>
+          <td>pablo</td>
+          <td>perez</td>
+          <td>pablo@pablo.com</td>
+        </tr>
+        <tr>
+          <td>pablo</td>
+          <td>perez</td>
+          <td>pablo@pablo.com</td>
+        </tr>
+        <tr>
+          <td>pablo</td>
+          <td>perez</td>
+          <td>pablo@pablo.com</td>
+        </tr>
+        <tr>
+          <td>pablo</td>
+          <td>perez</td>
+          <td>pablo@pablo.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+        obcaecati, tenetur quae id, rerum velit sint laudantium temporibus a
+        vitae earum illo voluptas possimus neque maxime eligendi rem consectetur
+        culpa.
+      </p>
+    </div>
+
+    <hr />
+
+    <form action="index.html" method="post">
+      <label for="nombre_cliente">Nombre</label>
+      <br />
+      <input
+        type="text"
+        placeholder="Ingrese su nombre"
+        name="nombre_cliente"
+        id="nombre_cliente"
+        required
+      />
+      <input type="email" placeholder="Email" name="email_cliente" required />
+      <input
+        type="number"
+        placeholder="edad"
+        name="edad_cliente"
+        min="1"
+        max="10"
+        required
+      />
+      <input
+        type="password"
+        placeholder="Contraseña"
+        name="password_usuario"
+        required
+      />
+      <input type="datetime-local" name="fecha" required />
+
+      <input type="file" name="logo" accept="image/*" id="" />
+      <input type="reset" value="Reset" />
+      <button type="submit">Enviar form</button>
+      <input type="submit" value="Enviar" />
+      <label for="lenguaje">Lenguaje</label>
+      <br />
+      <select name="lenguaje" id="lenguaje">
+        <option value="">Seleccione un lenguaje</option>
+        <option value="Python">Python</option>
+        <option value="Javascript">Javascript</option>
+      </select>
+      <textarea rows="15" cols="18" name="valor" id=""></textarea>
+    </form>
+  </body>
+</html>
