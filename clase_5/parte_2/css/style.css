@@ -1,0 +1,22 @@
+a:hover {
+  color: chocolate;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+input:focus {
+  border-color: blue;
+}
+button:active {
+  background-color: cornflowerblue;
+}
+li:nth-child(2) {
+  color: orange;
+}
+
+p:nth-of-type(3) {
+  font-weight: bold;
+}
+p:first-child {
+ text-decoration: underline;
+} 

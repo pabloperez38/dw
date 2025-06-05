@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 5</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <div class="container">
+        <h1>Ejemplo de diferentes unidades de medida en CSS</h1>
+        
+        <div class="box-px">
+            <h2>Div con medidas en píxeles (px)</h2>
+            <p>300px × 150px</p>
+            <p>Márgenes y paddings también en px</p>
+        </div>
+        
+        <div class="box-rem">
+            <h2>Div con medidas en rem</h2>
+            <p>20rem × 10rem (1rem = 16px por defecto)</p>
+            <p>320px × 160px</p>
+        </div>
+        
+        <div class="box-em">
+            <h2>Div con medidas en em</h2>
+            <p>15em × 7.5em (relativo al font-size de este div: 20px)</p>
+            <p>300px × 150px</p>
+        </div>
+        
+        <div class="box-percent">
+            <h2>Div con medidas en porcentaje (%)</h2>
+            <p>90% del ancho del contenedor padre</p>
+            <p>20% de altura (relativo al height del padre si está definido)</p>
+        </div>
+        
+        <div class="box-vh">
+            <h2>Div con medidas viewport (vh/vw)</h2>
+            <p>50vw (50% del ancho del viewport)</p>
+            <p>30vh (30% del alto del viewport)</p>
+        </div>
+        
+        <div class="text-examples">
+            <h2>Ejemplos en texto:</h2>
+            <p class="text-px">Este texto tiene 18px de tamaño</p>
+            <p class="text-rem">Este texto tiene 1.2rem de tamaño (1.2 × 16px = 19.2px)</p>
+            <p class="text-em">Este texto tiene 1.5em de tamaño (relativo al font-size del padre)</p>
+            <p class="text-percent">Este texto tiene 120% de tamaño (relativo al font-size del padre)</p>
+        </div>
+        
+        <div class="spacing-examples">
+            <h2>Ejemplos en márgenes y paddings:</h2>
+            <div class="spacing-px">
+                <p>Márgenes: 15px, Padding: 10px (medidas fijas)</p>
+            </div>
+            <div class="spacing-em">
+                <p>Márgenes: 1em, Padding: 0.5em (relativo al font-size actual)</p>
+            </div>
+            <div class="spacing-rem">
+                <p>Márgenes: 1.5rem, Padding: 0.75rem (relativo al font-size del html)</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

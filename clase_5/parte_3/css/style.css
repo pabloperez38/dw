@@ -1,0 +1,35 @@
+/* Para pantallas de hasta 360px */
+@media only screen and (max-width: 360px) {
+    body{
+        color: #fff;
+        background-color: black;
+    }
+}
+/* Para pantallas entre 361px y 768px */
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+     body{
+        background-color: rgb(142, 74, 74);
+    }
+}
+/* Para pantallas entre 769px y 1024px */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+     body{      
+        background-color: rgb(243, 0, 0);
+    }
+    h1{
+        font-size: 25px;
+        color: beige;
+    }
+}
+/* Para pantallas entre 1025px y 1366px */
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+     body{
+        background-color: rgb(179, 255, 0);
+    }
+}
+/* Para pantallas mayores a 1366px */
+@media only screen and (min-width: 1366px) {
+     body{
+        background-color: rgb(39, 0, 194);
+    }
+}
