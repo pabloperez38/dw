@@ -1,0 +1,16 @@
+p::first-letter {
+ font-size: 2rem;
+ color: rgb(187, 255, 0);
+ } 
+ p::first-line {
+ font-weight: bold;
+ color: green;
+ }
+ p::after {
+ content: " (fin)";
+ color: blue;
+ }
+ p::selection {
+ background-color: yellow;
+ color: black;
+ }

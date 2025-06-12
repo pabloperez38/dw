@@ -1,0 +1,279 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1,
+h2 {
+    color: #2c3e50;
+}
+
+.ejemplo {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Ejemplo 1: Contenedor Básico Flex */
+.flex-container {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 10px;
+    gap: 10px;
+}
+
+.flex-container .item {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+/* Ejemplo 2: Dirección de los Elementos */
+.flex-direction {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    gap: 10px;
+}
+
+.flex-direction div {
+    background-color: #2196f3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Ejemplo 3: Alineación de Elementos */
+.flex-align {
+    display: flex;
+    height: 200px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-align div {
+    background-color: #ff9800;
+    color: white;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Ejemplo 4: Ordenamiento de Elementos */
+.flex-order {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 10px;
+    gap: 10px;
+}
+
+.flex-order div {
+    background-color: #9c27b0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.item1 {
+    order: 3;
+}
+.item2 {
+    order: 1;
+}
+.item3 {
+    order: 2;
+}
+
+/* Ejemplo 5: Flexibilidad de los Elementos */
+.flex-grow {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 10px;
+    gap: 10px;
+}
+
+.flex-grow div {
+    background-color: #607d8b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.flex-grow .item1 {
+    flex: 1;
+}
+.flex-grow .item2 {
+    flex: 2;
+}
+.flex-grow .item3 {
+    flex: 1;
+}
+
+/* Ejemplo 6: Alineación Multilínea */
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    padding: 10px;
+    gap: 10px;
+}
+
+.flex-wrap div {
+    background-color: #e91e63;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+/* Ejemplo 7: Centrado Perfecto */
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #f0f0f0;
+}
+
+.centered div {
+    background-color: #00bcd4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Ejemplo 8: Menú de Navegación Responsivo */
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.menu a:hover {
+    background-color: #575757;
+    border-radius: 3px;
+}
+
+@media (max-width: 600px) {
+    .flex-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}
+
+/* Ejemplo 9: Tarjetas con Alturas Iguales */
+.card-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.card p {
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+
+/* Ejemplo 10: Formulario con Flexbox */
+.flex-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    min-height: 100px;
+}
+
+button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
