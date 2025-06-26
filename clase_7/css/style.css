@@ -1,0 +1,12 @@
+.btn-rosa {
+  background-color: rgb(250, 4, 229);
+  color: #fff;
+}
+.btn-rosa:hover {
+  background-color: rgb(154, 3, 141);
+  color: #fff;
+}
+.btn-primary {
+ background-color: #ff5733;
+ border-color: #ff5733;
+}
